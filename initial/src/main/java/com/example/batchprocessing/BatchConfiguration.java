@@ -17,8 +17,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
-@Configuration
-@EnableBatchProcessing
+//@Configuration
 public class BatchConfiguration {
 
     public JobBuilderFactory jobBuilderFactory;
